@@ -14,6 +14,7 @@
 		4B4DF5D91CF8262A0088BB60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4DF5D71CF8262A0088BB60 /* LaunchScreen.storyboard */; };
 		4B4DF5E41CF8262A0088BB60 /* ViewAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DF5E31CF8262A0088BB60 /* ViewAnimationTests.swift */; };
 		4B4DF5EF1CF8262A0088BB60 /* ViewAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DF5EE1CF8262A0088BB60 /* ViewAnimationUITests.swift */; };
+		4B4DF5FD1CF826750088BB60 /* D3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4DF5FC1CF826750088BB60 /* D3View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4B4DF5EA1CF8262A0088BB60 /* ViewAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4DF5EE1CF8262A0088BB60 /* ViewAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewAnimationUITests.swift; sourceTree = "<group>"; };
 		4B4DF5F01CF8262A0088BB60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4DF5FC1CF826750088BB60 /* D3View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = D3View.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		4B4DF5CD1CF8262A0088BB60 /* ViewAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				4B4DF5FC1CF826750088BB60 /* D3View.swift */,
 				4B4DF5CE1CF8262A0088BB60 /* AppDelegate.swift */,
 				4B4DF5D01CF8262A0088BB60 /* ViewController.swift */,
 				4B4DF5D21CF8262A0088BB60 /* Main.storyboard */,
@@ -258,6 +261,7 @@
 			files = (
 				4B4DF5D11CF8262A0088BB60 /* ViewController.swift in Sources */,
 				4B4DF5CF1CF8262A0088BB60 /* AppDelegate.swift in Sources */,
+				4B4DF5FD1CF826750088BB60 /* D3View.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
